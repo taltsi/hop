@@ -74,7 +74,7 @@ Whatever runs this command (for example your terminal) needs Accessibility acces
 Hop exists thanks to the people who mapped out macOS's undocumented window interfaces in the open:
 
 - [AltTab](https://github.com/lwouis/alt-tab-macos) showed that finding windows on other desktops by probing accessibility
-  elements works. Hop's implementation is its own.
+  elements works.
 - [yabai](https://github.com/koekeishiya/yabai) and the [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) community
   documented the window-server calls used to focus a specific window.
 - [Contexts](https://contexts.co) inspired the list-style design.
