@@ -62,7 +62,8 @@ To remove it: `security delete-keychain ~/Library/Keychains/hop-signing.keychain
   and it can never be in the Mac App Store.
 - **Windows Hop hasn't seen yet.** A window that already existed on another desktop can take one ⌘Tab to appear,
   while Hop searches for it in the background.
-- **Crashes.** If Hop crashes, the system ⌘Tab can stay off until you relaunch and quit Hop, or log out.
+- **Two processes.** Activity Monitor shows two Hop processes. The second is a tiny watchdog that turns the system ⌘Tab
+  back on if Hop crashes or is force quit.
 
 ## Debugging
 

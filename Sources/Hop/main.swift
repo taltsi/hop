@@ -1,5 +1,7 @@
 import AppKit
 
+Watchdog.runIfRequested()
+
 // `Hop --dump` prints the window list Hop would show, for debugging.
 if CommandLine.arguments.contains("--dump") {
     let store = WindowStore()

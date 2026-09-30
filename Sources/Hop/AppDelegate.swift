@@ -39,6 +39,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         }
         self.tap = tap
         Private.setSystemSwitcherEnabled(false)
+        Watchdog.launch()
 
         AXUIElementSetMessagingTimeout(AXUIElementCreateSystemWide(), 0.25)
         WindowMRU.shared.start()
