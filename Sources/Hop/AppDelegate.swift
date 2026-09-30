@@ -87,7 +87,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             item.target = self
             menu.addItem(item)
         } else {
-            let item = NSMenuItem(title: "Hop is handling ⌘Tab", action: nil, keyEquivalent: "")
+            let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+            let item = NSMenuItem(title: "Hop is handling ⌘Tab" + (version.map { " (v\($0))" } ?? ""), action: nil, keyEquivalent: "")
             item.isEnabled = false
             menu.addItem(item)
         }
