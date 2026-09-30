@@ -6,7 +6,9 @@
 
 <p align="center">A tiny ⌘Tab window switcher for macOS. It does one thing.</p>
 
-<!-- Demo: replace this comment with a screen recording of Hop in action. -->
+<p align="center">
+  <img src="docs/demo.gif" width="720" alt="Hop listing open windows while ⌘Tab is held">
+</p>
 
 Hop replaces the built-in ⌘Tab app switcher with a list of **windows**, most recently used first, across all desktops.
 It has no preferences window, doesn't take screenshots of your windows, has no dependencies, and is about 1,000 lines of Swift.
